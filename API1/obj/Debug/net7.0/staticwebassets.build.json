@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "HbtFQSAOYPMGuHtMMddOxdJsqMAoENlC5h3F8WYRljg=",
+  "Source": "API1",
+  "BasePath": "_content/API1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API1\\wwwroot",
+      "Source": "API1",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\TDD\\API1\\wwwroot\\",
+      "BasePath": "_content/API1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\TDD\\API1\\wwwroot\\css\\site.css",
+      "SourceId": "API1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\TDD\\API1\\wwwroot\\",
+      "BasePath": "_content/API1",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}
