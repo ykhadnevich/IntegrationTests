@@ -44,6 +44,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "IKVM.Runtime": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "IKVM.Runtime.JNI": {
+              "target": "Package",
+              "version": "[7.2.4630.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
