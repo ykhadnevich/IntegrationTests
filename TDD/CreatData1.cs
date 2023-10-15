@@ -41,7 +41,7 @@ public class Program1
 
         int totalOnlineUsers = await program.CountOnlineUsersAsync();
 
-        string outputPath = "C:\\Users\\user\\source\\repos\\IntegrationTests\\IntegrationTests\\Data.txt";
+        string outputPath = "C:\\Users\\user\\source\\repos\\TDD\\TDD\\Data.txt";
 
         string outputText = $"{DateTime.UtcNow}; Total online users: {totalOnlineUsers} ";
 

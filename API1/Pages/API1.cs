@@ -24,7 +24,7 @@ public class StatsController : ControllerBase
     {
         if (StatsDataList.Count == 0)
         {
-            return NotFound();
+            return NotFound(); // Return a 404 Not Found status code when no data is available.
         }
 
         if (DateTime.TryParseExact(date, "yyyy-MM-dd-HH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dateTime))
@@ -34,6 +34,7 @@ public class StatsController : ControllerBase
             {
                 return Ok(new { usersOnline = data.UsersOnline });
             }
+            // If data is not found, return a JSON response with "usersOnline" set to null.
             return Ok(new { usersOnline = (object)null });
         }
 
@@ -69,5 +70,7 @@ public class StatsController : ControllerBase
 
         return statsDataList;
     }
+
+
 
 }
