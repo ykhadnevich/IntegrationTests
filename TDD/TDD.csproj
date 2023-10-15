@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="IKVM.Runtime" Version="7.2.4630.5" />
+    <PackageReference Include="IKVM.Runtime.JNI" Version="7.2.4630.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="7.0.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="xunit" Version="2.5.2" />
+  </ItemGroup>
+
 </Project>
